@@ -1,0 +1,132 @@
+/* Add CSS here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+main{
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 1px px rgba(0, 0, 0, 0.5);
+    padding: 4rem 4rem 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.section1 p:first-child{
+    color: white;
+    background-color: purple;
+    padding: 0.2rem 0.8rem;
+    border-radius: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section1 h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.section1 p:last-child{
+    color: purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+section button{
+    all: unset;
+    background-color: purple;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 0.9rem;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+
+}
+button a{
+    color: white;
+    text-decoration-line: none;
+
+}
+.section2{
+    display: flex;
+    width: 100%;
+
+}
+.first_image{
+    width: 140%;
+    position: relative;
+
+}
+.first_image img{
+    position: absolute;
+    width: 90%;
+    border-radius: 0.6rem;
+    z-index: 1;
+    object-fit: cover;
+    height: 100%;
+}
+.first_image h1{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    bottom: 0;
+   width: 70%; 
+   padding: 2rem;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.second_image{
+    width: 60%;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 1px 2px 2px  rgba(175, 172, 172, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+div img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    
+}
+.contentss{
+   padding: 1rem;
+
+}
+.contentss p{
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px){
+    main{
+        padding: 1rem;
+        
+    }
+        .section1 h1 {
+          text-align: center;
+        }
+
+                .section2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+}
