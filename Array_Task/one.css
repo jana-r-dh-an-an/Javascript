@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: aliceblue;
+    display: grid;
+    place-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 2px 0px rgba(138, 137, 137, 0.8);
+    padding: 1rem 7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 500px;
+}
+.members{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(48, 47, 47);
+   
+}
+.members1{
+    display: flex;
+    gap: 2rem;
+ 
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 1rem;
+}
+button{
+    all: unset;
+    background-color: rgb(38, 38, 202);
+    color: white;
+    padding: 0.5rem;
+    width: 190px;
+    border-radius: 1rem;
+}
+.members1 div{
+    border: 1px solid rgb(226, 223, 223);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0px 1px 0px 0px rgba(240, 239, 239, 0.8);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+
+}
+.members1 div:hover{
+    background-color: rgb(17, 100, 156);
+    color: white;
+   zoom: 0.9;
+ 
+   
+
+}
